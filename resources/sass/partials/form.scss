@@ -1,0 +1,173 @@
+
+// input (of any type)
+.form-control {
+    background-image: none; // Reset unusual Firefox-on-Android default style
+    background-color: transparent;
+    border-bottom: 2px solid #888291;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0px;
+    color: #000;
+    display: block;
+    font-size: 1rem;
+    max-width: 100%;
+    width: 100%;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.label {
+    cursor: default;
+    display: inline-block;
+    max-width: 100%; // Force IE8 to wrap long content
+}
+
+.legend {
+    display: block;
+    white-space: normal;
+    width: 100%;
+}
+
+
+// Form layouts
+// -------------------------------------------------------------------
+.form--stacked {
+    .input,
+    .select,
+    .radio,
+    .checkbox,
+    .textarea,
+    .label {
+        display: block;
+        width: 100%;
+    }
+}
+
+.form--inline {
+    .form-control {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto; // Prevent labels from stacking above inputs
+                     // in `.form-group`
+    }
+
+    .radio,
+    .checkbox {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
+// Select
+// ----------------------------------------------------------------
+.select {
+    color: #000;
+    display: block;
+    position: relative;
+}
+
+.select select {
+    background-color: #fff;
+    border-bottom: 2px solid #888291;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: 0;
+    width: 100%;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+    >option {
+        background-color: #fff;
+    }
+}
+
+// Dropdown arrow
+.select:after {
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-top: -2px;
+    pointer-events: none;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    width: 0;
+}
+
+
+// Placeholder styling
+// -------------------------------------------------------------------
+::-webkit-input-placeholder {
+    color: #afa9b9;
+    -webkit-font-smoothing: antialiased;
+}
+::-moz-placeholder {
+    color: #afa9b9;
+    -moz-osx-font-smoothing: grayscale;
+}
+:-ms-input-placeholder {
+    color: #afa9b9;
+}
+
+
+.contact-area {
+    background: #f2f2f2;
+    padding: 6rem 0;
+
+    .contact-caption {
+        text-align: center;
+        .title {
+            margin-bottom: 1rem;
+
+            span {
+                color: #155de4;
+            }
+        }
+        margin-bottom: 3rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    button {
+        background: #155de4;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 25px;
+        margin-top: 3rem;
+        font-weight: bold;
+    }
+
+    button:hover {
+        color: #fff;
+        background-position: right center; 
+        background: #0bf1d2;
+        text-decoration: none;
+        border-color: #0bf1d2;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-area {
+        .button-wrapper {
+            text-align: center;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}

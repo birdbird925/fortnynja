@@ -1,0 +1,16 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+@import 'global';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// slick slider
+@import 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css';
+
+@import 'partials/nav';
+@import 'partials/form';
+@import 'partials/footer';
+
+@import 'pages/home';
