@@ -103,5 +103,5 @@
         </div>
     </div>
 
-    {{-- <apicomponent></apicomponent> --}}
+    <apicomponent></apicomponent>
 @endsection
