@@ -1,6 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto:700&display=swap');
 
 @import 'global';
 
@@ -12,5 +11,7 @@
 @import 'partials/nav';
 @import 'partials/form';
 @import 'partials/footer';
-
-@import 'pages/home';
+@import 'partials/hero_header';
+@import 'partials/intro';
+@import 'partials/team';
+@import 'partials/testimonial';
