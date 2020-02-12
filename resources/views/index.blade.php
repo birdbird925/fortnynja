@@ -40,9 +40,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="img-wrapper" style="background-image: url('/img/intro-image-1.webp');">
-                        <img src="/img/intro-image-1.webp" class="overlay-img" >
-                        <img src="/img/intro-image-2.webp" alt="Establish a compliant process">
+                    <div class="img-wrapper" style="background-image: url('/img/intro-image-1.png');">
+                        <picture>
+                            <source srcset="/img/intro-image-1.webp" type="image/webp">
+                            <source srcset="/img/intro-image-1.png" type="image/png"> 
+                            <img src="/img/intro-image-2.png" class="overlay-img" alt="Establish a compliant process">
+                        </picture>
+                        <picture>
+                            <source srcset="/img/intro-image-2.webp" type="image/webp">
+                            <source srcset="/img/intro-image-2.jpg" type="image/jpeg"> 
+                            <img src="/img/intro-image-2.jpg" alt="Improve your Pen Test results">
+                        </picture>
                     </div>
                 </div><!-- col-md-6 -->
                 <div class="col-lg-6">
@@ -104,28 +112,60 @@
                         
                         <div class="slick">
                             <div class="customer-grid">
-                                <img src="/img/snapchat-grey.webp" alt="Snapchat">
+                                <picture>
+                                    <source srcset="/img/snapchat-grey.webp" type="image/webp">
+                                    <source srcset="/img/snapchat-grey.png" type="image/png"> 
+                                    <img src="/img/snapchat-grey.png" alt="Snapchat">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/gm-grey.webp" alt="GM">
+                                <picture>
+                                    <source srcset="/img/gm-grey.webp" type="image/webp">
+                                    <source srcset="/img/gm-grey.png" type="image/png"> 
+                                    <img src="/img/gm-grey.png" alt="GM">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/starbucks-grey.webp" alt="Starbucks">
+                                <picture>
+                                    <source srcset="/img/starbucks-grey.webp" type="image/webp">
+                                    <source srcset="/img/starbucks-grey.png" type="image/png"> 
+                                    <img src="/img/starbucks-grey.png" alt="Starbucks">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/oath-grey.webp" alt="PayPal">
+                                <picture>
+                                    <source srcset="/img/oath-grey.webp" type="image/webp">
+                                    <source srcset="/img/oath-grey.png" type="image/png"> 
+                                    <img src="/img/oath-grey.png" alt="PayPal">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/dod-grey.webp" alt="DOD">
+                                <picture>
+                                    <source srcset="/img/dod-grey.webp" type="image/webp">
+                                    <source srcset="/img/dod-grey.png" type="image/png"> 
+                                    <img src="/img/dod-grey.png" alt="DOD">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/european-commission-grey.webp" alt="European Commission">
+                                <picture>
+                                    <source srcset="/img/european-commission-grey.webp" type="image/webp">
+                                    <source srcset="/img/european-commission-grey.png" type="image/png"> 
+                                    <img src="/img/european-commission-grey.png" alt="European Commission">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/saturn-grey.webp" alt="Saturn">
+                                <picture>
+                                    <source srcset="/img/saturn-grey.webp" type="image/webp">
+                                    <source srcset="/img/saturn-grey.png" type="image/png"> 
+                                    <img src="/img/saturn-grey.png" alt="Saturn">
+                                </picture>
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/shopify-grey.webp" alt="Shopify">
+                                <picture>
+                                    <source srcset="/img/shopify-grey.webp" type="image/webp">
+                                    <source srcset="/img/shopify-grey.png" type="image/png"> 
+                                    <img src="/img/shopify-grey.png" alt="Shopify">
+                                </picture>
                             </div>
                         </div><!-- slick -->
                     </div><!-- testimonial-wrapper -->
