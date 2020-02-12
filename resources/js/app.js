@@ -1,5 +1,6 @@
 require('./bootstrap');
 require('./slick');
+require('./modernizr-custom');
 
 window.Vue = require('vue');
 

@@ -110,6 +110,26 @@
             padding: .5rem 0.8rem;
         }
     }
+
+    .no-webp {
+        .img-wrapper.home {
+            background-image: url('/img/intro-image-1.png');
+        }
+
+        .img-wrapper.about {
+            background-image: url('/img/about-image-1.jpg');
+        }
+    }
+
+    .webp {
+        .img-wrapper.home {
+            background-image: url('/img/intro-image-1.webp');
+        }
+
+        .img-wrapper.about {
+            background-image: url('/img/about-image-1.webp');
+        }
+    }
 }
 
 @media (max-width: 425px) {

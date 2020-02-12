@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="img-wrapper" style="background-image: url('/img/about-image-1.jpg');">
+                    <div class="img-wrapper about">
                         <picture>
                             <source srcset="/img/about-image-1.webp" type="image/webp">
                             <source srcset="/img/about-image-1.jpg" type="image/jpeg"> 
