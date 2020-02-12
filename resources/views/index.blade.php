@@ -104,28 +104,28 @@
                         
                         <div class="slick">
                             <div class="customer-grid">
-                                <img src="/img/snapchat-grey.png" alt="">
+                                <img src="/img/snapchat-grey.webp" alt="Snapchat">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/gm-grey.png" alt="">
+                                <img src="/img/gm-grey.webp" alt="GM">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/starbucks-grey.png" alt="">
+                                <img src="/img/starbucks-grey.webp" alt="Starbucks">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/oath-grey.png" alt="">
+                                <img src="/img/oath-grey.webp" alt="PayPal">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/dod-grey.png" alt="">
+                                <img src="/img/dod-grey.webp" alt="DOD">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/european-commission-grey.png" alt="">
+                                <img src="/img/european-commission-grey.webp" alt="European Commission">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/saturn-grey.png" alt="">
+                                <img src="/img/saturn-grey.webp" alt="Saturn">
                             </div>
                             <div class="customer-grid">
-                                <img src="/img/shopify-grey.png" alt="">
+                                <img src="/img/shopify-grey.webp" alt="Shopify">
                             </div>
                         </div><!-- slick -->
                     </div><!-- testimonial-wrapper -->
