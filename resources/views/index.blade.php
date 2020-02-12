@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('seo_title', 'Bug Bounty - Hacker Powered Security Testing | HackerOne');
+@section('seo_description', 'HackerOne develops bug bounty solutions to help organizations reduce the risk of a security incident by working with the world’s largest community of ethical hackers to conduct discreet penetration tests, and operate a vulnerability disclosure or bug bounty program.');
+
 @section('content')
     <div class="hero-area">
         <div class="container">

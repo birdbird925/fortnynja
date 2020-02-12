@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('seo_title', 'The #1 Hacker-Powered AppSec Testing Platform Connecting Organizations to the Largest Community of Ethical Hackers.');
+@section('seo_description', 'HackerOne is the #1 hacker-powered security platform, helping organizations find and fix critical vulnerabilities before they can be criminally exploited and resolve critical security vulnerabilities by working with the largest hacker community through vulnerability disclosure, bug bounty programs and penetration testing services.');
+
 @section('content')
     <div class="hero-area">
         <div class="container">
