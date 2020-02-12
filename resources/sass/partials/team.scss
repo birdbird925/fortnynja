@@ -48,7 +48,7 @@
             width: 100%;
             margin-bottom: 1.3rem;
         }
-        h3 {
+        .title {
             font-size: 29px;
             line-height: 35px;
             margin-bottom: 1.5rem;
@@ -58,6 +58,14 @@
             font-size: 16px;
             line-height: 26px;
             margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .team-area {
+        .member-row {
+            padding: 0 1rem;
         }
     }
 }

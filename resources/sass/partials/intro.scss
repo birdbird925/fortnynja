@@ -113,6 +113,10 @@
 }
 
 @media (max-width: 425px) {
+    .intro-heading h3{
+        font-size: 28px;
+        line-height: 33px;
+    }
     .intro-main {
         .text-grid {
             margin-bottom: 2rem;
