@@ -40,8 +40,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="img-wrapper" style="background-image: url('/img/about-image-1.jpf');">
-                        <img src="/img/about-image-1.jpf" class="overlay-img" >
+                    <div class="img-wrapper" style="background-image: url('/img/about-image-1.webp');">
+                        <img src="/img/about-image-1.webp" class="overlay-img" >
                     </div>
                 </div><!-- col-md-6 -->
                 <div class="col-lg-6">
@@ -77,7 +77,7 @@
         <div class="container">
             <div class="member-row row">
                 <div class="col-lg-4 text-center">
-                    <img src="/img/marten_mickos.jpf" alt="Marten Mickos">
+                    <img src="/img/marten_mickos.webp" alt="Marten Mickos">
                 </div>
                 <div class="col-lg-7">
                     <div class="title">Mårten Mickos - <span>CEO</span></div>
@@ -87,7 +87,7 @@
             </div>
             <div class="member-row row second-row">
                 <div class="col-lg-4 col-lg-push-6 text-center img-section">
-                    <img src="/img/alex_120.jpf" alt="Alex">
+                    <img src="/img/alex_120.webp" alt="Alex">
                 </div>
                 <div class="col-lg-6 col-lg-pull-4 offset-lg-1 text-section">
                     <div class="title">Alex Rice - <span>Co-founder & CTO</span></div>
@@ -96,7 +96,7 @@
             </div>
             <div class="member-row row">
                 <div class="col-lg-4 text-center">
-                    <img src="/img/liz_brittain.jpf" alt="Brittain">
+                    <img src="/img/liz_brittain.webp" alt="Brittain">
                 </div>
                 <div class="col-lg-8">
                     <div class="title">Liz Brittain - <span>CFO</span></div>

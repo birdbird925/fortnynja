@@ -40,9 +40,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="img-wrapper" style="background-image: url('/img/intro-image-1.jpf');">
-                        <img src="/img/intro-image-1.jpf" class="overlay-img" >
-                        <img src="/img/intro-image-2.jpf" alt="Establish a compliant process">
+                    <div class="img-wrapper" style="background-image: url('/img/intro-image-1.webp');">
+                        <img src="/img/intro-image-1.webp" class="overlay-img" >
+                        <img src="/img/intro-image-2.webp" alt="Establish a compliant process">
                     </div>
                 </div><!-- col-md-6 -->
                 <div class="col-lg-6">
